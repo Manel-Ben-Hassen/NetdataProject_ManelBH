@@ -8,7 +8,7 @@ import google.generativeai as genai
 # ---------------------
 
 # Hardcode your Gemini API key here (⚠ Keep private!)
-API_KEY = "AIzaSyDPwGifjGdeBp_NzNI42j85cg2TsKqiRBU"  # Replace with your API key from Google AI Studio
+API_KEY = "***"  # Replace with your API key from Google AI Studio
 genai.configure(api_key=API_KEY)
 
 # Model choice (Gemini multimodal model for OCR)
